@@ -4,7 +4,7 @@ html, body, #cesiumContainer {
 
 .legend {
     line-height: 16px;
-    width: 280px;
+    width: 340px;
     position: absolute;
     z-index: 1000;
     left: 10px;
@@ -13,13 +13,13 @@ html, body, #cesiumContainer {
     font-family: 'Open Sans', sans-serif;
     padding: 6px 8px;
     background: #000000;
-    background: rgba(38, 38, 38, 0.5);
+    background: rgba(38, 38, 38, 0.9);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
 }
 
 h4 {
-    font-family:  Lobster, cursive;
+    font-family:  Coiny, cursive;
     font-size: larger;
 }
 
