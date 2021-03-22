@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cesiumjs.org/releases/1.66/Build/Cesium/Widgets/widgets.css">
+    <link rel="stylesheet" href="https://cesiumjs.org/releases/1.79/Build/Cesium/Widgets/widgets.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cesiumjs.org/releases/1.66/Build/Cesium/Cesium.js"></script>
+    <script src="https://cesiumjs.org/releases/1.79/Build/Cesium/Cesium.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
     <title> Noise Complaints in New York City (Jan. to Mar. 2017)</title>
@@ -30,7 +30,7 @@
     //create a cesium view, and use the mapbox dark map as the base map.
     var viewer = new Cesium.Viewer('cesiumContainer', {
         imageryProvider : new Cesium.MapboxImageryProvider({
-            mapId : 'mapbox.dark',
+            mapId : 'mapbox.satellite',
             accessToken : 'pk.eyJ1Ijoia2F0emJyIiwiYSI6ImNqOHhmMnBucDIwZm4ycW8ya2d5cHF0cmsifQ.8rcjz0DyWs_ncWfOZ0VwKA'
         }),
         terrainProvider: new Cesium.CesiumTerrainProvider({
